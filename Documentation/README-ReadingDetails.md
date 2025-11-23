@@ -274,7 +274,11 @@ Some Base Shapes can only have a Local Frame, while other Base Shapes have the o
 
 ## Line and Surface Modulations
 
-**Modulations** are a core concept in the ShapeKernel that allow you to create complex, parametrically-controlled geometric variations on top of PicoGK's underlying voxel-based geometry engine. While PicoGK provides powerful low-level operations for manipulating voxel fields (Boolean operations, offsets, rendering), modulations operate at a higher abstraction level. They enable you to define how specific dimensions of a shape (such as radius, width, or height) vary smoothly across the shape's surface or length, before the shape is rendered into PicoGK voxels. This parametric approach makes it easy to create sophisticated geometries like tapered cylinders, variable-thickness pipes, or shapes with periodic surface features, all described through simple mathematical functions or point lists that are then translated into the voxel representation that PicoGK operates on.
+**Modulations** are a core concept in the ShapeKernel that allow you to create complex, parametrically-controlled geometric variations on top of PicoGK's underlying voxel-based geometry engine. 
+
+While PicoGK provides powerful low-level operations for manipulating voxel fields (Boolean operations, offsets, rendering), modulations operate at a higher abstraction level. They enable you to define how specific dimensions of a shape (such as radius, width, or height) vary smoothly across the shape's surface or length, before the shape is rendered into PicoGK voxels. 
+
+This parametric approach makes it easy to create sophisticated geometries like tapered cylinders, variable-thickness pipes, or shapes with periodic surface features, all described through simple mathematical functions or point lists that are then translated into the voxel representation that PicoGK operates on.
 
 All shapes feature a number of surfaces. A surface can be a 3D object, but it is described via two length dimensions. Think of each surface as a normalised 2D interval from 0 to 1. 
 
