@@ -274,7 +274,7 @@ Some Base Shapes can only have a Local Frame, while other Base Shapes have the o
 
 ## Line and Surface Modulations
 
-**Modulations** are a core concept in the ShapeKernel that allow you to create complex, parametrically-controlled geometric variations on top of PicoGK's underlying voxel-based geometry engine. 
+**Modulations** are a core concept in the ShapeKernel that allow you to create complex, parametrically controlled geometric variations on top of PicoGK's underlying voxel-based geometry engine. 
 
 While PicoGK provides powerful low-level operations for manipulating voxel fields (Boolean operations, offsets, rendering), modulations operate at a higher abstraction level. They enable you to define how specific dimensions of a shape (such as radius, width, or height) vary smoothly across the shape's surface or length, before the shape is rendered into PicoGK voxels. 
 
